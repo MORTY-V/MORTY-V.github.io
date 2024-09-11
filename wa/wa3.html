@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino encyclopedia</title>
+    <link rel="stylesheet" href="../CSS/wa_3.css"> <!---->
+</head>
+<!-- 
+    Subsections  (be sure to use the 'id' attribute) 
+    Text
+    Image(s)
+    Links to other students' encyclopedia pages
+    ...and anything else a good encyclopedia page might have (pro tip, look at Wikipedia).
+-->
+<body>
+    <h1><strong>Arduino</strong></h1>
+
+    <p>
+        Table of contents<br>
+        <ul>
+            <li><a href="#History">History</a></li>
+            <li><a href="#Hardware">Hardware</a></li>
+            <li><a href="#Software">Software</a></li>
+        </ul>
+    </p>
+
+    <h2 id="History">History</h2>
+        <h3>Founding</h3>
+        <p>
+            The Arduino project was started at the <a href="https://en.wikipedia.org/wiki/Interaction_Design_Institute_Ivrea">Interaction Design Institute Ivrea</a> (IDII) in Ivrea, Italy.
+            At that time, the students used a BASIC Stamp microcontroller at a cost of $50. 
+            In 2004, Hernando Barragán created the development platform Wiring as a Master's thesis project at IDII, under the supervision of Massimo Banzi and Casey Reas. 
+            Casey Reas is known for co-creating, with Ben Fry, the Processing development platform. 
+            The project goal was to create simple, low cost tools for creating digital projects by non-engineers. 
+            The Wiring platform consisted of a printed circuit board (PCB) with an ATmega128 microcontroller, an IDE based on Processing and library functions to easily program the microcontroller.
+            In 2005, Massimo Banzi, with David Mellis, another IDII student, and David Cuartielles, extended Wiring by adding support for the cheaper ATmega8 microcontroller. 
+            The new project, forked from Wiring, was called Arduino.
+            <br><br>
+            The initial Arduino core team consisted of Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, and David Mellis.
+            <br><br>
+            Following the completion of the platform, lighter and less expensive versions were distributed in the open-source community. 
+            It was estimated in mid-2011 that over 300,000 official Arduinos had been commercially produced, and in 2013 that 700,000 official boards were in users' hands.
+        </p>
+    <h2 id="Hardware">Hardware</h2>
+    <p>
+        Arduino is open-source hardware. 
+        The hardware reference designs are distributed under a Creative Commons Attribution Share-Alike 2.5 license and are available on the Arduino website. 
+        Layout and production files for some versions of the hardware are also available.
+        <br><br>
+        Although the hardware and software designs are freely available under copyleft licenses, the developers have requested the name Arduino to be exclusive to the official product and not be used for derived works without permission. 
+        The official policy document on the use of the Arduino name emphasizes that the project is open to incorporating work by others into the official product. 
+        Several Arduino-compatible products commercially released have avoided the project name by using various names ending in -duino.
+        <br><br>
+        Most Arduino boards consist of an Atmel 8-bit AVR microcontroller (ATmega8, ATmega168, ATmega328, ATmega1280, or ATmega2560) with varying amounts of flash memory, pins, and features. 
+        The 32-bit Arduino Due, based on the Atmel SAM3X8E was introduced in 2012. 
+        The boards use single or double-row pins or female headers that facilitate connections for programming and incorporation into other circuits. 
+        These may connect with add-on modules termed shields. 
+        Multiple and possibly stacked shields may be individually addressable via an I²C serial bus. 
+        Most boards include a 5 V linear regulator and a 16 MHz crystal oscillator or ceramic resonator. 
+        Some designs, such as the LilyPad, run at 8 MHz and dispense with the onboard voltage regulator due to specific form factor restrictions.
+        <br><br>
+        Arduino microcontrollers are pre-programmed with a bootloader that simplifies the uploading of programs to the on-chip flash memory. 
+        The default bootloader of the Arduino Uno is the Optiboot bootloader. 
+        Boards are loaded with program code via a serial connection to another computer. 
+        Some serial Arduino boards contain a level shifter circuit to convert between RS-232 logic levels and transistor–transistor logic (TTL serial) level signals. 
+        Current Arduino boards are programmed via Universal Serial Bus (USB), implemented using USB-to-serial adapter chips such as the FTDI FT232. 
+        Some boards, such as later-model Uno boards, substitute the FTDI chip with a separate AVR chip containing USB-to-serial firmware, which is reprogrammable via its own ICSP header. 
+        Other variants, such as the Arduino Mini and the unofficial Boarduino, use a detachable USB-to-serial adapter board or cable, Bluetooth or other methods. 
+        When used with traditional microcontroller tools, instead of the Arduino IDE, standard AVR in-system programming (ISP) programming is used.
+        <br><br>
+        The Arduino board exposes most of the microcontroller's I/O pins for use by other circuits. 
+        The Diecimila, Duemilanove, and current Uno provide 14 digital I/O pins, six of which can produce pulse-width modulated signals, and six analog inputs, which can also be used as six digital I/O pins. 
+        These pins are on the top of the board, via female 0.1-inch (2.54 mm) headers. 
+        Several plug-in application shields are also commercially available. 
+        The Arduino Nano and Arduino-compatible Bare Bones Board and Boarduino boards may provide male header pins on the underside of the board that can plug into solderless breadboards.
+        <br><br>
+        Many Arduino-compatible and Arduino-derived boards exist. 
+        Some are functionally equivalent to an Arduino and can be used interchangeably. 
+        Many enhance the basic Arduino by adding output drivers, often for use in school-level education, to simplify making buggies and small robots. 
+        Others are electrically equivalent, but change the form factor, sometimes retaining compatibility with shields, sometimes not. 
+        Some variants use different processors, of varying compatibility.
+        <br><br>
+    </p>
+    <h2 id="Software">Software</h2>
+    <p>
+        A program for Arduino hardware may be written in any programming language with compilers that produce binary machine code for the target processor. 
+        Atmel provides a development environment for their 8-bit AVR and 32-bit ARM Cortex-M based microcontrollers: AVR Studio (older) and Atmel Studio (newer).
+        <br>
+    </p>
+        <h3>Legacy IDE</h3>
+        <p>
+            The Arduino integrated development environment (IDE) is a cross-platform application (for Microsoft Windows, macOS, and Linux) that is based on Processing IDE which is written in Java. 
+            It uses the Wiring API as programming style. 
+            It includes a code editor with features such as text cutting and pasting, searching and replacing text, automatic indenting, brace matching, and syntax highlighting, and provides simple one-click mechanisms to compile and upload programs to an Arduino board. 
+            It also contains a message area, a text console, a toolbar with buttons for common functions and a hierarchy of operation menus.
+            The source code for the IDE is released under the GNU General Public License, version 2.
+            <br><br>
+            The Arduino IDE supports the languages C and C++ using special rules of code structuring. 
+            The Arduino IDE supplies a software library from the Wiring project, which provides many common input and output procedures. 
+            User-written code only requires two basic functions, for starting the sketch and the main program loop, that are compiled and linked with a program stub main() into an executable cyclic executive program with the GNU toolchain, also included with the IDE distribution. 
+            The Arduino IDE employs the program avrdude to convert the executable code into a text file in hexadecimal encoding that is loaded into the Arduino board by a loader program in the board's firmware. 
+            Traditionally, Arduino IDE was used to program Arduino's official boards based on Atmel AVR Microcontrollers, but over time, once the popularity of Arduino grew and the availability of open-source compilers existed, many more platforms from PIC, STM32, TI MSP430, ESP32 can be coded using Arduino IDE.
+            <br><br>
+            From version 1.8.12, Arduino IDE windows compiler supports only Windows 7 or newer OS. 
+            On Windows Vista or older one gets "Unrecognized Win32 application" error when trying to verify/upload program. 
+            To run IDE on older machines, users can either use version 1.8.11, or copy "arduino-builder" executable from version 11 to their current install folder as it is independent from IDE.
+            <br><br>
+        </p>
+</body>
+</html>
