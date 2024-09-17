@@ -1,0 +1,47 @@
+Team Members: Lilly Nguyen, Mia Moreno, Morty Morton V 
+-------------------------------------
+ind_errors.html (25 total errors) 
+---------------------------------------
+Line 1: Missing <!DOCTYPE html> 
+Line 2: should be <html language=”en”>   <html language="en"> 
+Line 3: should be <head> 
+Line 4: need to add <meta charset="UTF-8"> to add the character encoding 
+Line 7: Missing </head> tag to close the opening one 
+Line 9: Needs </h1> closing tag 
+Line 11: Needs <p> opening tag 
+Line 19 should be <li>Item 6</li> 
+Line 24: should be a </ol> closing tag to end the list 
+Line 26: needs </p> closing tag 
+Line 28: change file type in relative path to JPG to match “image.jpg”; also needs an alt attribute for accessibility 
+Line 30: needs </a> closing tag instead of </img> 
+Line 39: change second <td> to </td> closing tag 
+Line 45: needs a </table> closing tag 
+Line 46: should be src=“error.jpg” 
+Line 48: format the text by adding paragraph <p></p> and strikethrough <s></s> tags with the strikethrough tags nested within the paragraph ones 
+Line 50: background color styling needs to be specified with this attribute syntax style="background-color:lightgrey;" 
+Line 52: needs a slash / before the > 
+Line 54: needs - -> to close the comment 
+Line 56: needs a </a> closing tag 
+Line 58: </em> needs to come before </p> closing tag correct: <p><em>Underlined text</em></p> 
+Line 58: change the <em> tags to <u> and </u> respectively to underline the text 
+Line 61: use tags <dt> and </dt> to specify a descriptive list title 
+Line 62: use tags <dd> and </dd> to specify a descriptive list description 
+Line 64: change the h3 at the end of the line to a closing h2 tag </h2> 
+------------------------------------------------------------
+find_errors_2.html (15 total errors) 
+--------------------------------------------------------
+Line 2: moved html from body to top of file
+Line 2: also added lang
+Line 4: missing meta entirely
+Line 6: /head was missing
+Line 8: body missing end ">"
+Line 9: moved h1 out of head into body
+Line 12: missing /srtong end
+Line 13: missing end /p
+Line 14: replaced href with src
+Line 16: missing beginning h2
+Line 18: missing beginning p
+Line 19: /div was missing from file 
+Line 20: wasnt put in correct comment format
+Line 21: /body was missing from file
+Line 22: /html missing the letter "l"
