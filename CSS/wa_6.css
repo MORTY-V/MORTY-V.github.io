@@ -1,8 +1,16 @@
 body{
     background: url('/img/sports_overlay_back.jpg') no-repeat;
+    padding: 1em;
+    margin: auto;
 }
 
-#overlay_1{
+.overlay_1{
     position: absolute;
-    left: 10em;
+    left: 65em;
+    z-index: 2;
+}
+
+.overlay_2{
+    position: absolute;
+    z-index: 2;
 }
