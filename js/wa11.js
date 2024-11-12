@@ -8,7 +8,7 @@ const overlay = document.querySelector('.overlay');
 const imageCarousel = ["/img/wa11/pic1.jpg","/img/wa11/pic2.jpg","/img/wa11/pic3.jpg","/img/wa11/pic4.jpg","/img/wa11/pic5.jpg"];
 
 /* Declaring the alternative text for each image file */
-const picalt = ["closeup of human eye", "closeup of rock", "closeup of flower", "old egyptian writing", "butterfly"];
+const picalt = ["Morty and Kate at avanti", "morty and kate easter", "impressed putin", "group photo", "weird man in a suit"];
 
 /* Looping through images */
 for(let i = 0;i<imageCarousel.length;i++)

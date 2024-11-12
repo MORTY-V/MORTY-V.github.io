@@ -41,3 +41,8 @@ h1 {
     float: left;
     cursor: pointer;
   }
+
+img{
+    max-width: 640px;
+    max-height: 480px;
+}
