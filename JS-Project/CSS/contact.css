@@ -1,0 +1,22 @@
+body{
+    border-style: solid black;
+    border: 2pt;
+}
+
+header{
+    padding: 1vw;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    color: black;
+}
