@@ -1,0 +1,26 @@
+{
+    "projects":[{
+        "name": "Re-framing the Portrait",
+        "subdomain": "Re-framing_the_Portrait",
+        "catagory":["Image"],
+        "subtitle": "test title",
+        "collaborators": ["Frederick Morton"],
+        "description": "description"
+    },{
+        "name": "Business Card",
+        "subdomain": "Business_Card",
+        "catagory":["Web"],
+        "subtitle": "test title",
+        "collaborators": ["name 1", "name 2"],
+        "description": "description"
+    },{
+        "name": "Poster Mailer",
+        "subdomain": "Poster_Mailer",
+        "catagory":["Text"],
+        "subtitle": "test title",
+        "collaborators": ["Frederick Morton"],
+        "description": "description"
+    }
+
+    ]
+}

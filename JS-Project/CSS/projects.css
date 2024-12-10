@@ -1,6 +1,63 @@
-body{
-    border-style: solid black;
-    border: 2pt;
+body {
+    margin: 0;
+    padding: 10px; 
+    border: 100px solid black; 
+    box-sizing: border-box; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    background-color: black;
+}
+
+header{
+    padding: 1vw;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vw;
+}
+
+.project:hover{
+    background-color: darkgray;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding: 15px 20px;
+    gap: 20px;
+}
+
+.project img {
+    flex-shrink: 0;
+    width: 10vw;
+    height: auto;
+}
+
+.description {
+    flex-grow: 1; /* Allow the description to take the remaining space */
+}
+
+#filter {
+    display: flex;
+    justify-content: center;
+}
+
+#filter button{
+    margin: 10px;
 }
 
 header{
@@ -13,10 +70,23 @@ ul {
     margin: 0; 
 }
 
+ul li {
+    padding-top: 1.5vh;
+}
+
+ul li a {
+    transition: opacity 0.3s ease;
+}
+
+ul li a:hover {
+    opacity: 0.5;
+}
+
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:visited { 
-    color: black;
+    color: white;
 }

@@ -1,10 +1,24 @@
-body{
-    border-style: solid black;
-    border: 2pt;
+body {
+    margin: 0;
+    padding: 10px; 
+    border: 100px solid black; 
+    box-sizing: border-box; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    background-color: black;
 }
 
 header{
     padding: 1vw;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 }
 
 ul {
@@ -13,10 +27,23 @@ ul {
     margin: 0; 
 }
 
+ul li {
+    padding-top: 1.5vh;
+}
+
+ul li a {
+    transition: opacity 0.3s ease;
+}
+
+ul li a:hover {
+    opacity: 0.5;
+}
+
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:visited { 
-    color: black;
+    color: white;
 }
