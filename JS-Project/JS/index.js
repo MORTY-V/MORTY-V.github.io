@@ -9,7 +9,7 @@ fetch('../JS-Project/projects.json')
     console.log(`error ${err}`);
 })
 
-function sortData(data){       //still need to add image source and location //also need href link to projects
+function sortData(data){
     for(let i = 0 ; i < data.projects.length ; i++){
         document.getElementById("projects").innerHTML += `<a href="../JS-Project/${data.projects[i].subdomain}.html">
         <div class="row project" id="${data.projects[i].subdomain}">

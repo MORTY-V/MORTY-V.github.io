@@ -48,11 +48,13 @@ a:visited {
 }
 
 .about {
-    margin-left: 15vw;
-    margin-top: 10vw;
+    margin-left: 17vw;
+    margin-top: 10vh;
+    margin-right: 10vw;
     display: flex; 
     justify-content: baseline;
+    flex-direction: row-reverse;
     gap: 5px; 
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }

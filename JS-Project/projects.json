@@ -3,23 +3,30 @@
         "name": "Re-framing the Portrait",
         "subdomain": "Re-framing_the_Portrait",
         "catagory":["Image"],
-        "subtitle": "test title",
+        "subtitle": "Morty's Marvelous Maneuvers",
         "collaborators": ["Frederick Morton"],
-        "description": "description"
+        "description": "With Re-framing the Portrait we were told take portrait photos but of an abstract suject, I chose to highlight all the adventures I've taken and the placen I've been",
+        "Images": ["../JS-Project/project_images/Image/Re-framing_the_Portrait/Re-framing_the_Portrait(0).png", "../JS-Project/project_images/Image/Re-framing_the_Portrait/Re-framing_the_Portrait(1).png", "../JS-Project/project_images/Image/Re-framing_the_Portrait/Re-framing_the_Portrait(2).png", "../JS-Project/project_images/Image/Re-framing_the_Portrait/Re-framing_the_Portrait(3).png", "../JS-Project/project_images/Image/Re-framing_the_Portrait/Re-framing_the_Portrait(4).png"],
+        "alt": ["girl on mountain","altered picture of moab", "old coffee shop", "waterfall", "end of trail sign"]
     },{
         "name": "Business Card",
         "subdomain": "Business_Card",
         "catagory":["Web"],
-        "subtitle": "test title",
-        "collaborators": ["name 1", "name 2"],
-        "description": "description"
+        "subtitle": "A little about me",
+        "collaborators": ["Frederick Morton"],
+        "description": "This project was to get familiarized with css and how it incorperates with html",
+        "Images": ["../JS-Project/project_images/Web/Business_Card/Business_Card(0).png"],
+        "alt": ["business card"]
+
     },{
         "name": "Poster Mailer",
         "subdomain": "Poster_Mailer",
         "catagory":["Text"],
-        "subtitle": "test title",
+        "subtitle": "Colorado Symphany",
         "collaborators": ["Frederick Morton"],
-        "description": "description"
+        "description": "The poster mailer was a graphic design chalange for how to fit a lot of information in a small space but make it look appealing",
+        "Images": ["../JS-Project/project_images/Text/Poster_Mailer/Poster_Mailer(0).png", "../JS-Project/project_images/Text/Poster_Mailer/Poster_Mailer(1).png"],
+        "alt": ["front of poster mailer","back of poster mailer"]
     }
 
     ]
