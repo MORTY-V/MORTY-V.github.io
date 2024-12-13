@@ -26,7 +26,6 @@ function buildPage(project){
     makeImageArray(project);
     document.getElementById("project").innerHTML += `<h1>${project.name}</h1>`;
 
-    // Set the first image as the displayed image
     if (imageCarousel.length > 0) {
         displayedImage.src = imageCarousel[0];
         displayedImage.alt = picalt[0];
