@@ -26,23 +26,24 @@ function buildPage(project){
     makeImageArray(project);
     document.getElementById("project").innerHTML += `<h1>${project.name}</h1>`;
 
-    if (imageCarousel.length > 0) {
-        displayedImage.src = imageCarousel[0];
-        displayedImage.alt = picalt[0];
-    }
+    if(project.catagory != "Web"){
+        if (imageCarousel.length > 0) {
+            displayedImage.src = imageCarousel[0];
+            displayedImage.alt = picalt[0];
+        }
 
-    for(let i = 0; i < imageCarousel.length; i++){
-        const newImage = document.createElement('img');
-        newImage.setAttribute('src', imageCarousel[i]);
-        newImage.setAttribute('alt', picalt[i]);
-        thumbBar.appendChild(newImage);
-    
-        newImage.addEventListener('click', () => {
-            displayedImage.src = imageCarousel[i];
-            displayedImage.alt = picalt[i];
-        });
+        for(let i = 0; i < imageCarousel.length; i++){
+            const newImage = document.createElement('img');
+            newImage.setAttribute('src', imageCarousel[i]);
+            newImage.setAttribute('alt', picalt[i]);
+            thumbBar.appendChild(newImage);
+        
+            newImage.addEventListener('click', () => {
+                displayedImage.src = imageCarousel[i];
+                displayedImage.alt = picalt[i];
+            });
+        }
     }
-
     document.getElementById("description").innerHTML += `<p>${project.description}</p>`;
 
 }

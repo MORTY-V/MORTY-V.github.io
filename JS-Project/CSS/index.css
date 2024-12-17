@@ -87,3 +87,10 @@ a:visited {
     margin: 0 5px;
     cursor: pointer;
 }
+
+/* description */
+
+#description {
+    display: flex;
+    justify-content: center;
+}
