@@ -1,0 +1,9 @@
+body {
+    background-color: lightgrey;
+}
+
+
+#li1 {
+    background-color: lightblue;
+    width: max-content;
+}
