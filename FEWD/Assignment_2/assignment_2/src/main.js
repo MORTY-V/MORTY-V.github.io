@@ -1,69 +1,7 @@
 import './style.css';
 
-fetch('https://meowfacts.herokuapp.com/')
+fetch('https://placebear.com/200/300')
   .then(response => response.json())
   .then(json => console.log(json));
 
-const baseUrl = 'https://meowfacts.herokuapp.com/';
-
-const fetchCatFactButton = document.getElementById('fetchCatFactButton');
-const catFactTarget = document.getElementById('catFactTarget');
-
-fetchCatFactButton.addEventListener('click', async () => {
-  const response = await fetch(baseUrl);
-  const json = await response.json();
-  catFactTarget.innerText = json.data[0];
-});
-
-const catFactsCount = document.getElementById('catFactsCount');
-const fetchCatFactsButton = document.getElementById('fetchCatFactsButton');
-const catFactsTarget = document.getElementById('catFactsTarget');
-
-fetchCatFactsButton.addEventListener('click', async () => {
-  try {
-    const count = catFactsCount.value;
-    if (count < 1) {
-      return;
-    }
-
-    const response = await fetch(`${baseUrl}?count=${count}&lang=esp`);
-
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(text);
-    }
-
-    const json = await response.json();
-    catFactsTarget.innerHTML = '';
-    for (const catFact of json.data) {
-      // don't do this! XSS!
-      // catFactsTarget.innerHTML += `<li>${catFact}</li>`;
-      const li = document.createElement('li');
-      li.innerText = catFact;
-      catFactsTarget.appendChild(li);
-    }
-  } catch (e) {
-    console.error(e);
-  }
-});
-
-
-// document.querySelector('#app').innerHTML = `
-//   <div>
-//     <a href="https://vite.dev" target="_blank">
-//       <img src="${viteLogo}" class="logo" alt="Vite logo" />
-//     </a>
-//     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-//       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-//     </a>
-//     <h1>Hello Vite!</h1>
-//     <div class="card">
-//       <button id="counter" type="button"></button>
-//     </div>
-//     <p class="read-the-docs">
-//       Click on the Vite logo to learn more
-//     </p>
-//   </div>
-// `
-
-// setupCounter(document.querySelector('#counter'))
+const baseUrl = 'https://placebear.com/200/300';
