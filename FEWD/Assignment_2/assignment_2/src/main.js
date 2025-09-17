@@ -1,5 +1,9 @@
 //import '/style.css';
 
+fetch('https://placebear.com');
+
+const baseUrl = 'https://placebear.com/';
+
 const fetchBearButton = document.getElementById('fetchBearButton');
 const bearTarget = document.getElementById('bearTarget');
 const img = document.getElementById('bearImage');
@@ -9,7 +13,7 @@ fetchBearButton.addEventListener('click', () => {
   const width = Math.floor(Math.random() * 200) + 200;
   const height = Math.floor(Math.random() * 200) + 200;
   
-  img.src = `https://placebear.com/${width}/${height}`;
+  img.src = baseUrl+width+"/"+height;
   img.alt = 'bear';
   img.style.maxWidth = '100%';
   
