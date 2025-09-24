@@ -1,0 +1,13 @@
+.RemoveItem{
+    margin-Left: 1vw;
+    background-color:red;
+    color: white;
+    border: none;
+    border-Radius: 4px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.RemoveItem:hover{
+    background-color: rgb(167, 0, 0);
+}
