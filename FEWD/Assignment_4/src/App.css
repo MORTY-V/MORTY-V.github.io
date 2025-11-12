@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #0066cc;
+  margin-top: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
