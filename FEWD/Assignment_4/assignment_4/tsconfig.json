@@ -16,7 +16,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["assignment_4/src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
-

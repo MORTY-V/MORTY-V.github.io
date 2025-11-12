@@ -23,4 +23,3 @@ export function useTypewriter(text: string, delay: number): string {
 
   return displayedText;
 }
-

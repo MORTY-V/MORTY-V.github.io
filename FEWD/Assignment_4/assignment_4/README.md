@@ -54,4 +54,3 @@ Types out a string letter by letter with a specified delay.
 ```typescript
 const typedText = useTypewriter('Hello World', 100);
 ```
-

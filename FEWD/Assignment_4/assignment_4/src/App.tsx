@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Custom Hooks</h1>
+      <h1>Custom Hooks Demo</h1>
 
       <div className="section">
-        <h2>1. usePrevious Hook</h2>
+        <h2>1. usePrevious</h2>
         <p>Current Count: {count}</p>
         <p>Previous Count: {prevCount === undefined ? 'N/A' : prevCount}</p>
         <button onClick={() => setCount(count + 1)}>Add 1</button>
@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <div className="section">
-        <h2>2. useDebouncedState Hook</h2>
+        <h2>2. useDebouncedState</h2>
         <input
           type="text"
           onChange={(e) => setText(e.target.value)}
@@ -37,7 +37,7 @@ function App() {
       </div>
 
       <div className="section">
-        <h2>3. useTypewriter Hook</h2>
+        <h2>3. useTypewriter</h2>
         <input
           type="text"
           value={inputText}
@@ -51,4 +51,3 @@ function App() {
 }
 
 export default App;
-
