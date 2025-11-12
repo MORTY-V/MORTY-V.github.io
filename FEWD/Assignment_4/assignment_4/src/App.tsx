@@ -33,7 +33,7 @@ function App() {
           onChange={(e) => setText(e.target.value)}
           placeholder="Type here..."
         />
-        <p>Debounced value: {text || '(empty)'}</p>
+        <p>Debounced value: {text}</p>
       </div>
 
       <div className="section">
