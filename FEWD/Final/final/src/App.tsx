@@ -63,7 +63,7 @@ const projects: Project[] = [
     id: 3,
     title: 'Third Project',
     description: 'Another one',
-    tech: ['React', 'Tailwind CSS', 'Firebase'],
+    tech: ['C++'],
     liveLink: 'https://project-live-link.com',
     githubLink: 'https://github.com/yourusername/project-repo',
   },
