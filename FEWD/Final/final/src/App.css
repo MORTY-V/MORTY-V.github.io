@@ -137,6 +137,7 @@ h2 {
 }
 
 .btn-primary:hover {
+  color: white;
   background-color: var(--primary-hover);
   transform: translateY(-2px);
 }
