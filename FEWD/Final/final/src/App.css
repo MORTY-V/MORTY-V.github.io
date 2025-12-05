@@ -33,7 +33,7 @@ body {
   font-size: var(--font-size-base);
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -41,23 +41,22 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
 section {
-  width: 100%;
+  width: 100vw;
   padding: clamp(2rem, 5vw, 5rem) clamp(1rem, 4vw, 2rem);
   min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 section > * {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 h2 {
@@ -70,7 +69,7 @@ h2 {
 /* Hero Section */
 .hero {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(135deg, #242424 0%, #1a1a1a 100%);
   text-align: center;
   padding: clamp(2rem, 5vw, 3rem) clamp(1rem, 4vw, 2rem);
@@ -81,7 +80,6 @@ h2 {
 
 .hero-content {
   width: 100%;
-  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,7 +107,6 @@ h2 {
   margin-bottom: clamp(1.5rem, 3vw, 2rem);
   line-height: 1.4;
   width: 100%;
-  max-width: 90%;
 }
 
 .cta-buttons {
@@ -182,13 +179,11 @@ h2 {
 /* About Section */
 .about {
   background-color: #1a1a1a;
-  width: 100%;
+  width: 100vw;
 }
 
 .about p {
   font-size: clamp(1rem, 2vw, 1.1rem);
-  max-width: 600px;
-  margin: 0 auto;
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.8;
   text-align: center;
@@ -196,7 +191,7 @@ h2 {
 
 /* Projects Section */
 .projects {
-  width: 100%;
+  width: 100vw;
   background-color: #242424;
 }
 
@@ -205,8 +200,6 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: clamp(1rem, 3vw, 2rem);
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .project-card {
@@ -278,7 +271,7 @@ h2 {
 
 /* Skills Section */
 .skills {
-  width: 100%;
+  width: 100vw;
   background-color: #1a1a1a;
 }
 
@@ -287,8 +280,6 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
   gap: clamp(1.5rem, 3vw, 2rem);
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .skill-group h3 {
@@ -314,7 +305,7 @@ h2 {
 
 /* Contact Section */
 .contact {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   background-color: #242424;
 }
@@ -323,9 +314,6 @@ h2 {
   font-size: clamp(1rem, 2vw, 1.1rem);
   margin-bottom: clamp(1.5rem, 3vw, 2rem);
   color: rgba(255, 255, 255, 0.7);
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contact-links {
@@ -354,7 +342,7 @@ h2 {
 
 /* Footer */
 .footer {
-  width: 100%;
+  width: 100vw;
   background-color: #1a1a1a;
   text-align: center;
   padding: clamp(1.5rem, 3vw, 2rem);
