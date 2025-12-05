@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: 'Project Name',
-    description: 'Brief description of what this project does and what you learned',
+    description: 'Brief description of what this project does and what I learned',
     tech: ['React', 'TypeScript', 'Vite'],
     liveLink: 'https://project-live-link.com',
     githubLink: 'https://github.com/yourusername/project-repo',
@@ -62,7 +62,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: 'Third Project',
-    description: 'Demonstrate variety in your projects',
+    description: 'Another one',
     tech: ['React', 'Tailwind CSS', 'Firebase'],
     liveLink: 'https://project-live-link.com',
     githubLink: 'https://github.com/yourusername/project-repo',
@@ -93,7 +93,7 @@ function App() {
           <h1>
             <TypewriterEffect text="Hi, I'm Morty" speed={80} />
           </h1>
-          <p className="subtitle">Full Stack Developer | Problem Solver | Lifelong Learner</p>
+          <p className="subtitle">Developer | Problem Solver | Lifelong Learner</p>
           <div className="cta-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
@@ -106,7 +106,7 @@ function App() {
         <h2>About Me</h2>
         <p>
           I'm a passionate entry-level developer excited to build web applications and solve real-world problems. 
-          I have a strong foundation in React, JavaScript, and modern web development practices. 
+          I have a foundation in React, JavaScript, and modern web development practices. 
           I'm always learning and love collaborating with others!
         </p>
       </section>
